@@ -1,0 +1,135 @@
+.sectionOne {
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+  background-image: url(https://sites.7chairs.org//uploads/groupApproved/2019/06/540-image-JVkKd55J.jpg);
+  background-size: cover;
+}
+
+.logo {
+    height: 100px;
+    border-radius: 100px;
+}
+
+.navBar {
+    display: flex; 
+    height: 150px;
+    /* border: 1px solid red; */
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  ul {
+    font-family: 'Source Sans Pro', sans-serif;
+    list-style-type: none;
+    display: flex;
+    width: 50%;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* border: 1px black solid; */
+  }
+
+a {
+  text-decoration: none;
+  color: #444444;
+}
+
+h1 {
+  color: #000000;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-weight: light;
+}
+
+nav a:hover {
+    color: #ffffff;
+}
+
+p {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+  color: #444444;
+  text-align: center;
+}
+
+/* div {
+    justify-content: space-evenly;
+    align-content: center;
+    
+} */
+
+.locationsSection {
+    background-color: #ECFBFC;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* border: red 1px solid; */
+}
+
+.locations {
+ background-color: #ECFBFC;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-evenly; 
+ padding: 20px;
+}
+
+.locationImages {
+    width: 25%;
+    border-radius: 20%;
+}
+
+.locationImages:hover {
+    filter: brightness(.5);
+}
+
+.contact {
+    padding: 10px;
+  background-color: #FFC8BD;
+}
+
+form {
+    width: 50%;
+}
+form input, form textarea {
+    width: 450px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+button {
+    width: 100px;
+    background-color: #B3B3B3;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #B3B3B3;
+    height: 100px;
+    padding: 10px;
+}
+
+footer ul {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+}
+
+hr {
+    height: 1px;
+    width: 20%;
+    background: #fff;
+}
+/* footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    background: #B3B3B3;
+    color: white;
+} */
