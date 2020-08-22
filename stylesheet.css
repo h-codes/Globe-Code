@@ -4,6 +4,7 @@
   height: 600px;
   background-image: url(https://sites.7chairs.org//uploads/groupApproved/2019/06/540-image-JVkKd55J.jpg);
   background-size: cover;
+  
 }
 
 .transparency {
@@ -93,6 +94,7 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding: 50px;
     /* border: red 1px solid; */
 }
 
@@ -113,6 +115,14 @@ p {
     filter: brightness(.5);
 }
 
+.pollSection {
+ background-color:#FFEBD9;
+ display: block;
+ margin-left: auto;
+ margin-right:auto;
+ padding: 20px;
+}
+
 .contact {
     padding: 10px;
   background-color: #FFC8BD;
@@ -121,8 +131,9 @@ p {
 form {
     width: 50%;
     display: block;
-  margin-left: auto;
-  margin-right:auto;
+    margin-left: auto;
+    margin-right:auto;
+
 }
 
 form input, form textarea {
