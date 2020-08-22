@@ -111,12 +111,14 @@ p {
  background-color: #ECFBFC;
  display: flex;
  flex-direction: row;
- justify-content: space-evenly; 
+ justify-content:space-evenly; 
+ align-items: center;
  padding: 20px;
 }
 
 .locationImages {
-    width: 25%;
+    width: 300px;
+    height: 250px;
     border-radius: 20%;
 }
 
