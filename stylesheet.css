@@ -148,9 +148,12 @@ p {
 
 form {
     width: 50%;
-    display: block;
+    display: flex;
+    flex-direction: column;
     margin-left: auto;
     margin-right:auto;
+    justify-content: center;
+    align-items: center;
 
 }
 
