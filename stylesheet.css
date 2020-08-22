@@ -48,9 +48,14 @@
     /* border: 1px black solid; */
   }
 
-a {
+nav a {
   text-decoration: none;
   color: #444444;
+}
+
+nav a:hover {
+  color: #ffffff;
+  text-decoration: none;
 }
 
 h1 {
@@ -66,17 +71,13 @@ h1 {
   margin-right:auto;
 }
 
-h2 {
+h4 {
   color: #444444;
   text-align: center;
   font-family: 'Lato', sans-serif;
   font-weight: 200;
   margin-top: 0;
 
-}
-
-nav a:hover {
-    color: #ffffff;
 }
 
 p {
@@ -169,8 +170,8 @@ footer {
     flex-direction: column;
     justify-content: center;
     background: #B3B3B3;
-    height: 100px;
-    padding: 10px;
+    height: 150px;
+    padding: 25px;
 }
 
 footer ul {
