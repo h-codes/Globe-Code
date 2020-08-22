@@ -47,7 +47,22 @@ h1 {
   color: #000000;
   text-align: center;
   font-family: 'Lato', sans-serif;
-  font-weight: light;
+  font-weight: normal;
+  font-size: 250%;
+  word-wrap: normal;
+  width: 700px;
+  display: block;
+  margin-left: auto;
+  margin-right:auto;
+}
+
+h2 {
+  color: #444444;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  margin-top: 0;
+
 }
 
 nav a:hover {
@@ -59,6 +74,12 @@ p {
   font-size: 18px;
   color: #444444;
   text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right:auto;
+  word-wrap: normal;
+  width: 580px;
+
 }
 
 /* div {
@@ -99,7 +120,11 @@ p {
 
 form {
     width: 50%;
+    display: block;
+  margin-left: auto;
+  margin-right:auto;
 }
+
 form input, form textarea {
     width: 450px;
     padding: 5px;
