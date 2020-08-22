@@ -7,6 +7,15 @@
   
 }
 
+.sectionOnepage2 {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    background-image: url(https://sites.7chairs.org//uploads/groupApproved/2019/06/540-image-JVkKd55J.jpg);
+    background-size: cover;
+    
+  }
+
 .transparency {
   Opacity: 0.2;
 }
@@ -61,7 +70,7 @@ h2 {
   color: #444444;
   text-align: center;
   font-family: 'Lato', sans-serif;
-  font-weight: 300;
+  font-weight: 200;
   margin-top: 0;
 
 }
