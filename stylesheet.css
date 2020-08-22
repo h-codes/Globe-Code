@@ -4,6 +4,24 @@
   height: 600px;
   background-image: url(https://sites.7chairs.org//uploads/groupApproved/2019/06/540-image-JVkKd55J.jpg);
   background-size: cover;
+  
+}
+
+.sectionOnepage2 {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    background-image: url(https://sites.7chairs.org//uploads/groupApproved/2019/06/540-image-JVkKd55J.jpg);
+    background-size: cover;
+    
+  }
+
+.transparency {
+  Opacity: 0.2;
+}
+
+.title-color {
+  color: #000000
 }
 
 
@@ -48,7 +66,22 @@ h1 {
   color: #000000;
   text-align: center;
   font-family: 'Lato', sans-serif;
-  font-weight: light;
+  font-weight: normal;
+  font-size: 250%;
+  word-wrap: normal;
+  width: 700px;
+  display: block;
+  margin-left: auto;
+  margin-right:auto;
+}
+
+h2 {
+  color: #444444;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-weight: 200;
+  margin-top: 0;
+
 }
 
 nav a:hover {
@@ -60,6 +93,12 @@ p {
   font-size: 18px;
   color: #444444;
   text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right:auto;
+  word-wrap: normal;
+  width: 580px;
+
 }
 
 /* div {
@@ -73,6 +112,7 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding: 50px;
     /* border: red 1px solid; */
 }
 
@@ -93,6 +133,14 @@ p {
     filter: brightness(.5);
 }
 
+.pollSection {
+ background-color:#FFEBD9;
+ display: block;
+ margin-left: auto;
+ margin-right:auto;
+ padding: 20px;
+}
+
 .contact {
     padding: 10px;
   background-color: #FFC8BD;
@@ -100,7 +148,12 @@ p {
 
 form {
     width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+
 }
+
 form input, form textarea {
     width: 450px;
     padding: 5px;
