@@ -13,7 +13,6 @@
     height: 400px;
     background-image: url(https://sites.7chairs.org//uploads/groupApproved/2019/06/540-image-JVkKd55J.jpg);
     background-size: cover;
-    
   }
 
 .transparency {
@@ -32,7 +31,6 @@
 .navBar {
     display: flex; 
     height: 150px;
-    /* border: 1px solid red; */
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
@@ -45,7 +43,6 @@
     width: 50%;
     flex-direction: row;
     justify-content: space-evenly;
-    /* border: 1px black solid; */
   }
 
 nav a {
@@ -58,20 +55,16 @@ nav a:hover {
   text-decoration: none;
 }
 
-h1 {
+.sectionOne h1, .locationsSection h1, .pollSection h1, .contact h1, .sectionOnepage2 h1 {
   color: #000000;
   text-align: center;
   font-family: 'Lato', sans-serif;
   font-weight: normal;
-  font-size: 250%;
-  word-wrap: normal;
-  width: 700px;
-  display: block;
   margin-left: auto;
   margin-right:auto;
 }
 
-h4 {
+.locationsSection h4 {
   color: #444444;
   text-align: center;
   font-family: 'Lato', sans-serif;
@@ -80,24 +73,15 @@ h4 {
 
 }
 
-p {
+.sectionOne p, .contact p, footer p, .sectionOnepage2 p {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 18px;
   color: #444444;
   text-align: center;
-  display: block;
   margin-left: auto;
   margin-right:auto;
   word-wrap: normal;
-  width: 580px;
-
 }
-
-/* div {
-    justify-content: space-evenly;
-    align-content: center;
-    
-} */
 
 .locationsSection {
     background-color: #ECFBFC;
@@ -105,7 +89,6 @@ p {
     flex-direction: column;
     justify-content: center;
     padding: 50px;
-    /* border: red 1px solid; */
 }
 
 .locations {
@@ -117,10 +100,41 @@ p {
  padding: 20px;
 }
 
+@media only screen and (max-width:700px) {
+  .locations {
+   flex-direction: column;
+  }
+
+  nav a {
+    font-size: 10px;
+  }
+
+  .sectionOne p, .contact p, footer p, .sectionOnepage2 p {
+    font-size: 14px;
+  }
+
+  .sectionOne h1, .locationsSection h1, .pollSection h1, .contact h1, .sectionOnepage2 h1 {
+    font-size: 24px;
+  }
+
+  .locationsSection h4 {
+    font-size: 16px;
+  }
+
+  .sectionOne {
+    height: 450px;
+  }
+
+  .sectionOnepage2 {
+    height: 300px;
+  }
+}
+
 .locationImages {
-    width: 300px;
-    height: 250px;
+    width: 15rem;
+    height: 15rem;
     border-radius: 20%;
+    padding: 5%;
 }
 
 .locationImages:hover {
@@ -139,7 +153,7 @@ p {
 }
 
 .contact {
-    padding: 10px;
+  padding: 10px;
   background-color: #FFC8BD;
 }
 
@@ -155,7 +169,7 @@ form {
 }
 
 form input, form textarea {
-    width: 450px;
+    width: 100%;
     padding: 5px;
     border-radius: 5px;
 }
@@ -186,12 +200,3 @@ hr {
     width: 20%;
     background: #fff;
 }
-/* footer {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 250px;
-    background: #B3B3B3;
-    color: white;
-} */
