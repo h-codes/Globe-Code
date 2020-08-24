@@ -7,12 +7,6 @@
   
 }
 
-.exploreButton {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .sectionOnepage2 {
     display: flex;
     flex-direction: column;
@@ -51,7 +45,7 @@
     justify-content: space-evenly;
   }
 
-nav a {
+nav a, .gallery a {
   text-decoration: none;
   color: #444444;
 }
@@ -104,6 +98,18 @@ nav a:hover {
  justify-content:space-evenly; 
  align-items: center;
  padding: 20px;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.gallery a:hover {
+  text-decoration: none;
+  color: #000000;
 }
 
 @media only screen and (max-width:700px) {

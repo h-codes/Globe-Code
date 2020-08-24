@@ -38,15 +38,24 @@
       <h1>Locations</h1>
       <h4>Click on a location to find out more!</h4>
       <div class = 'locations'>
-        <a href="./page2.html">
-          <img class = 'locationImages' src='https://live.staticflickr.com/2626/3927887755_76040c5096_b.jpg '>
-        </a>
-        <a href="./page2.html">
-          <img class = 'locationImages' src='https://live.staticflickr.com/7408/11456690414_f7c415c34f_b.jpg'>
-        </a>
-        <a href="./page2.html">
-          <img class = 'locationImages' src='https://www.goodfreephotos.com/albums/singapore/singapore-skyline-with-dark-blue-sky-in-the-background-at-night.jpg'>
-        </a>
+        <div class="gallery">
+          <a href="./page2.html">
+            <img class = 'locationImages' src='https://live.staticflickr.com/2626/3927887755_76040c5096_b.jpg '>
+          </a>
+          <a href="./page2.html" class="gallery">Italy</a>
+        </div>
+        <div class="gallery">
+          <a href="./page2.html">
+            <img class = 'locationImages' src='https://live.staticflickr.com/7408/11456690414_f7c415c34f_b.jpg'>
+          </a>
+          <a href="./page2.html" class="gallery">Belgium</a>
+        </div>
+        <div class="gallery">
+          <a href="./page2.html">
+            <img class = 'locationImages' src='https://www.goodfreephotos.com/albums/singapore/singapore-skyline-with-dark-blue-sky-in-the-background-at-night.jpg'>
+          </a>
+          <a href="./page2.html" class="gallery">Singapore</a>
+        </div>
       </div>
     </div>
   
@@ -66,12 +75,6 @@
         <textarea placeholder="Message" id='text' rows="4"></textarea>
         <br><br>
         
-        <script>
-          function showAlert(){
-            var myText="Thank you for contacting us!";
-            alert(myText);
-          }
-        </script>
         <button onclick="showAlert()">Send</button>
       </form>
     </div>
@@ -88,6 +91,13 @@
       <p> &copy Globe Code 2020</p>
     </footer>
  
+    <script>
+      function showAlert(){
+        var myText="Thank you for contacting us!";
+        alert(myText);
+      }
+    </script>
+
 </body>
 </html>
 
