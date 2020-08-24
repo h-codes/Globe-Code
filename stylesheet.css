@@ -7,6 +7,12 @@
   
 }
 
+.exploreButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .sectionOnepage2 {
     display: flex;
     flex-direction: column;
